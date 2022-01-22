@@ -7,7 +7,7 @@ body{
     font-family: 'Open Sans', sans-serif;
      font-family: 'Rampart One', cursive;
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(45, 53, 53);
+    background: rgba(45, 53, 53,1);
 }
 
 #header{
@@ -42,8 +42,7 @@ a{
 
 
 #about_me{
-    background-image: url(images/shapes/7.png);
-    background-repeat: no-repeat;
+    background-image: url(images/shapes/7.png) no-repeat;
     display: flex;
     padding: 5%;
 }
@@ -89,6 +88,14 @@ a{
     margin: auto auto -6px auto;
 }
 
+#click-me {
+    display:inline;
+    padding: 0;
+
+    background: none;
+    color:rgb(193, 33, 207);
+
+}
 
 #specialSec{
     display: flex;
